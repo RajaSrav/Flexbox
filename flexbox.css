@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content:space-around;
+    /* width: 100%;
+    height: 800px;
+    align-items:flex-start;
+     */
+
+}
+.sub {
+    width: 30%;
+    /* background-color: blue; */
+    margin: 1%;
+    padding: 3px;
+    text-align: center;
+    border: 3px solid #ddd;
+    box-shadow: 8px 8px 8px 8px #ddd;
+    
+}
+img {
+    width: 100%;
+    height: 250px;
+}
+p {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .sub {
+        width: 90%;
+        background-color: #00f;
+        color: wheat;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .sub {
+        width: 45%;
+        background-color: green;
+        color: wheat;
+    }
+}
